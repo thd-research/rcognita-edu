@@ -354,7 +354,7 @@ class ControllerOptimalPredictive:
             self.dim_critic = int( ( ( self.dim_output + self.dim_input ) + 1 ) * ( self.dim_output + self.dim_input )/2 * 3)
             self.Wmin = np.zeros(self.dim_critic) 
             self.Wmax = np.ones(self.dim_critic) 
-        self.N_CTRL = N_CTRL(ctrl_bnds)
+        self.N_CTRL = N_CTRL()
 
     def reset(self,t0):
         """
@@ -402,7 +402,7 @@ class ControllerOptimalPredictive:
         
         See class documentation.
         """
-
+        run_obj = 1
         #####################################################################################################
         ################################# write down here cost-function #####################################
         #####################################################################################################
