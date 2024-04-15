@@ -371,25 +371,3 @@ In the ``rcognita`` code, the following convention is used.
 *  All vectors are treated as of type ``[n,]``.
 *  All buffers are treated as of type ``[L, n]`` where each row is a vector.
 *  Buffers are updated from bottom to top.
-
-References
-==========
-
-`Table of content`_
-
-Please contact `me <mailto:p.osinenko@gmail.com>`__ for any inquiries and do not forget to give me credit for usage of this code.
-If you are interested in stacked Q-learning, kindly read the `paper <https://arxiv.org/abs/2007.03999>`__.
-
-Original author: P. Osinenko, 2015-2019
-
-Bibtex reference
-----------------
-
-::
-
-    @misc{Osinenko2019rcognita,
-    author =   {Pavel Osinenko},
-    title =    {rcognita: a framework for dynamic programming and reinforcement learning algorithm development, testing, and simulation},
-    howpublished = {Private code, GitHub},
-    year = {2019}
-    }
